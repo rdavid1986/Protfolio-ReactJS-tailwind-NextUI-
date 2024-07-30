@@ -1,0 +1,18 @@
+.sectionPortfolio{
+    width: 70%;
+}
+.h1Animation{
+    animation: 1s slideinLeft2;
+}
+.cardDiv{
+    
+    animation: 3s slideinLeft2;
+}
+@keyframes slideinLeft2 {
+    0% {
+        opacity: 0;
+        }
+    100% {
+        opacity: 100;
+    }
+}
