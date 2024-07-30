@@ -5,7 +5,7 @@ import { Divider } from '@nextui-org/react';
 const Card = ({ title, type, github, description, background, webSiteLink, gitHubLink }) => {
     return (
         <>
-            <div className='w-90 text-left'>
+            <div className='w-[400px] h-[400px] text-left'>
                 <h4 className='font-bold text-3xl text-mygray mb-3 w-60'>{title}</h4>
 
                 <div className={`${background} space-y-1 h-60 w-90 bg-cover bg-no-repeat rounded-xl`} />

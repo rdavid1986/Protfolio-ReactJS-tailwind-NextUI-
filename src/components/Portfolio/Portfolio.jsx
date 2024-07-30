@@ -5,11 +5,11 @@ import Card from "../card/Card";
 const Portfolio = () => {
     return (
         <>
-            <section className="sectionPortfolio flex-col justify-center m-10 max-w-5-md">
-                <h1 className=" h1Animation text-6xl text-mygray mb-9">Portfolio</h1>
+            <section className="w-[70%] flex flex-col m-10 mx-auto">
+                <h1 className=" animation text-6xl text-mygray mb-9">Portfolio</h1>
 
                 {/* //Static Web */}
-                <div className=" cardDiv cardDiv flex flex-wrap gap-9 justify-start ">
+                <div className=" cardDiv flex flex-wrap gap-9 justify-center ">
                     <Card
                         title="Web HTML, CSS, javaScript"
                         type="Web site"
@@ -32,7 +32,7 @@ const Portfolio = () => {
                         type="Web site"
                         github="GitHub docs"
                         description="Front-End ReactJs Ecommerce" background="bg-custom-bg-ReactEcommerce"
-                        webSiteLink="https://rdavid1986.github.io/reactjs-ecommerce/"
+                        webSiteLink="https://6394d2b364a80c00095ea024--bright-kangaroo-d0d6df.netlify.app/"
                         gitHubLink="https://github.com/rdavid1986/reactjs-ecommerce"
                     />
                     <Card

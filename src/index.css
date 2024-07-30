@@ -3,17 +3,8 @@
 @tailwind utilities;
 *{
     box-sizing: border-box;
-    
     text-decoration: none;
     scroll-behavior: smooth;
-}
-body {
-    display: flex;
-    flex-direction: column; 
-    flex-wrap: wrap;
-    min-height: 100vh;
-    background-color : black;
-    margin:0;
 }
 header{
     display: flex;
@@ -21,50 +12,12 @@ header{
     justify-content: space-evenly;
     height: 100px;
 }
-main{
-    flex-grow: 1;
-    width: 100%;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: column;
-}
-
-section{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    height: auto;
-    width: 80%
-}
-.logo{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    font-size: 30px;
-}
-
-.navContainer{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    font-size: 30px;
-}
 .opacity{
     opacity: 1;
     transition: opacity 1830ms cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 .opacity:hover {
     opacity: 0.5;
-}
-.mainContainer{
-    display: flex;
-    flex-direction: column;
-    padding:0;
 }
 p{
     color:white;

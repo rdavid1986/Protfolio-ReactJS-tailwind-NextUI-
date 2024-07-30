@@ -1,11 +1,8 @@
-.sectionPortfolio{
-    width: 70%;
-}
-.h1Animation{
+
+.animation{
     animation: 1s slideinLeft2;
 }
 .cardDiv{
-    
     animation: 3s slideinLeft2;
 }
 @keyframes slideinLeft2 {

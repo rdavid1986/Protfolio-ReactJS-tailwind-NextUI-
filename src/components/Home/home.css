@@ -1,48 +1,15 @@
-.certificateImg{
-    width: 850px;
-    overflow: hidden;
-    margin-top:15px;
-}
-
-.about{
-    max-width: 90%;
-    font-size: 30px;
-    margin-bottom: 100px;;
-}
-.sectionAbout{
-    flex-direction: column;
-}
-.perfil{
-   width: 300px; 
-    height: auto;
+.custom-mask {
     mask-image: linear-gradient(to bottom, transparent, black 50%, black 50%, transparent),
                 linear-gradient(to right, transparent, black 30%, black 70%, transparent);
     -webkit-mask-image: linear-gradient(to bottom, transparent, black 0%, black 60%, transparent),
                        linear-gradient(to right, transparent, black 30%, black 80%, transparent);
     mask-composite: intersect;
     -webkit-mask-composite: destination-in;
-    filter: brightness(0.9);
 }
-.presentation{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 150px;
-    padding: 50px;
-}
-.animationTypingContainer{
-    display: inline-block;
-    color: #B1AAA0;
-}
-.animationTyping{
-    border-right: 5px solid; 
-    overflow: hidden;
-    width: 100%;
-    white-space: nowrap;
+.animate-typing{
     animation:
         typing 2.5s steps(20),
         cursor .50s step-end infinite alternate;
-       
 }
 @keyframes cursor {
     50%{ border-color: transparent }

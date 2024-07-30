@@ -22,7 +22,7 @@ const Contact = () => {
     };
 
     return (
-        <section className="flex flex-col justify-center h-screen-80">
+        <section className="flex flex-wrap flex-col items-center justify-center min-h-[80%] w-[80%]">
             <h1 className="text-mygray text-4xl mb-9 mt-9">I look forward to your message</h1>
 
             <form onSubmit={handleSubmit} className="flex flex-col w-1/4 gap-4">

@@ -19,6 +19,7 @@ module.exports = {
       'warn',
       { allowConstantExport: true },
     ],
+    "import/no-absolute-path": "off",
     'indent': ['error', 4],  // Indentación de 4 espacios
     'jsx-quotes': ['off'],  // Permitir cualquier tipo de comillas en JSX
     'semi': ['off'],  // Hacer que los puntos y comas sean opcionales
