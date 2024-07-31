@@ -6,12 +6,7 @@
     text-decoration: none;
     scroll-behavior: smooth;
 }
-header{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    height: 100px;
-}
+
 .opacity{
     opacity: 1;
     transition: opacity 1830ms cubic-bezier(0.075, 0.82, 0.165, 1);

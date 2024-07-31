@@ -19,7 +19,7 @@ module.exports = {
                 12: '3rem'
             },
             colors: {
-                mygray: "#B1AAA0"
+                customGray: "#B1AAA0"
             },
             backgroundImage: {
                 'custom-bg-MonteGrandeBus': "url('/images/MonteGrandeBus.png')",
@@ -38,7 +38,7 @@ module.exports = {
                 'screen-80': '80vh'
             },
             screens: {
-                'sm420': '420px',
+                sm420: '420px'
             }
         }
     },

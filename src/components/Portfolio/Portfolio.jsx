@@ -6,7 +6,7 @@ const Portfolio = () => {
     return (
         <>
             <section className="w-[70%] flex flex-col m-10 mx-auto">
-                <h1 className=" animation text-6xl text-mygray mb-9">Portfolio</h1>
+                <h1 className=" animation text-6xl text-customGray mb-9">Portfolio</h1>
 
                 {/* //Static Web */}
                 <div className=" cardDiv flex flex-wrap gap-9 justify-center ">

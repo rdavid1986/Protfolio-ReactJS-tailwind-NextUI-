@@ -1,6 +1,6 @@
-import {Button} from "@nextui-org/react";
+import { Button } from "@nextui-org/react";
 
-export default function SubmitButton(){
+export default function SubmitButton() {
     const handleSubmit = () => {
 
         console.log("form sended")

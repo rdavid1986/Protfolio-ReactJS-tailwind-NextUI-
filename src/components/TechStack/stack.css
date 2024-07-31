@@ -1,61 +1,20 @@
-.aboutSection{
-    display: flex;
-    flex-direction: column;
-}
-.imgDeveloper{
-    height: 250px;
-    border-radius: 5%;
-}
-.technologies{
-    max-width: 1000px ;
-    & p{
-        margin: 30px ;
-        color: white;
-    }
-}
-.Languages {
-    font-size: 40px;;
-}
-.frontend{
-    font-size: 50px;
-}
-
-@media (max-width: 950px) {
-  
-    .animationTyping{
-        font-size: 25px;
-    }
-    .technologies{
-        font-size: 20px;
-        & p {
-            color: white;
-        }
-    }
-    .imgDeveloper{
-        margin-top: 30px;
-        height: 100px;
-    }
-}
-.right {
+.slide-in-right {
     animation: 2s slidein;
 }
-.left{
+.slide-in-left{
     animation: 3.5s slideinLeft;
 
 }
-
 @keyframes slidein {
     from {
         translate: 150vw 0;
         scale: 200% 1;
     }
-
     to {
         translate: 0 0;
         scale: 100% 1;
     }
 }
-
 @keyframes slideinLeft {
     0% {
         opacity: 0;

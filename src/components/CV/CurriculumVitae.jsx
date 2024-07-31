@@ -5,7 +5,7 @@ export default function CurriculumVitae() {
     return (
         <>
             <PrintSectionButton />
-            <div className="w-3/4 bg-white pt-20 pl-40 mb-20">
+            <div className="w-[90%] flex justify-center sm:w-3/4 bg-white sm:pt-20  sm:mb-20">
                 <section className="flex flex-col w-[80%] items-start" id="sectionCV">
                     <h1 className="text-center font-extrabold text-6xl mb-20 mx-auto ">David Rodriguez</h1>
                     <p className="text-black mb-2.5 text-left">Contact:</p>
