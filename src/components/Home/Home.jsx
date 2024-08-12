@@ -11,7 +11,7 @@ import ScrollToTopButton from "../Buttons/ScrollToTopButton";
 export default function Home() {
     return (
         <>
-            <div className="items-center pt-[50px] flex flex-col sm:flex-row space-x-16 ">
+            <div className="items-center pt-[50px] flex flex-col sm:flex-row -ml-4">
                 <h1 className="text-center text-[40px] mb-3 sm:text-[50px] text-customGray">Hi, i'm <p className="text-blue-600 "><strong>David Rodriguez</strong></p></h1>
                 <img className="w-[300px] h-auto filter brightness-[0.9] custom-mask" src={perfil} alt="Perfil Photo" />
             </div>
