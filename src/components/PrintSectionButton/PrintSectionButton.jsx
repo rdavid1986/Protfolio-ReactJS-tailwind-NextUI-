@@ -1,19 +1,16 @@
+import jsPDF from 'jspdf';
 
-const PrintSectionButton = () => {
+const DownloadSectionButton = () => {
+    const handleDownload = () => {
+        const sectionToDownload = document.getElementById('sectionCV');
+        if (sectionToDownload) {
+            const doc = new jsPDF();
+            const content = sectionToDownload.innerText || sectionToDownload.textContent;
 
-    const handlePrint = () => {
-        
-        const sectionToPrint = document.getElementById('sectionCV');
-        if (sectionToPrint) {
-            const content = sectionToPrint.innerHTML;
-            const originalContent = document.body.innerHTML;
-
-            document.body.innerHTML = content;
-            window.print();
-
-            document.body.innerHTML = originalContent;
+            doc.text(content, 10, 10);
+            doc.save('CV.pdf');
         } else {
-            console.error('No se encontró el elemento para imprimir.');
+            console.error('No se encontró el elemento para descargar.');
         }
     };
 
@@ -21,12 +18,13 @@ const PrintSectionButton = () => {
         <div>
             <button
                 className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-10 mb-10"
-                onClick={handlePrint}
+                onClick={handleDownload}
             >
-                Imprimir CV
+                Descargar CV
             </button>
         </div>
     );
 };
 
-export default PrintSectionButton;
+export default DownloadSectionButton;
+
