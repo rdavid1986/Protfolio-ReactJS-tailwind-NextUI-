@@ -1,8 +1,10 @@
 
 const PrintSectionButton = () => {
+
     const handlePrint = () => {
+        
         const sectionToPrint = document.getElementById('sectionCV');
-        if (sectionCV) {
+        if (sectionToPrint) {
             const content = sectionToPrint.innerHTML;
             const originalContent = document.body.innerHTML;
 
