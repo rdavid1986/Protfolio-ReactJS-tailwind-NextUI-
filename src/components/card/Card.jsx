@@ -8,7 +8,7 @@ const Card = ({ title, type, github, description, background, webSiteLink, gitHu
             <div className='w-[400px] h-[400px] text-left'>
                 <h4 className='font-bold text-3xl text-customGray mb-3 w-60'>{title}</h4>
 
-                <div className={`${background} space-y-1 h-60 w-90 bg-cover bg-no-repeat rounded-xl`} />
+                <a href={webSiteLink} target="_blank"><div className={`${background} space-y-1 h-60 w-90 bg-cover bg-no-repeat rounded-xl`} /></a>
                 <div className=' flex flex-row flex-wrap w-auto '>
                     <Divider className='my-3 dividerHorizontal bg-red-600' />
 
