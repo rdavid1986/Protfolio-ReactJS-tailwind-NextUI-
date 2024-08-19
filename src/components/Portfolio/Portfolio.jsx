@@ -38,16 +38,16 @@ const Portfolio = () => {
                     <Card
                         title="NodeJS, Express, Handlebars."
                         type="Web site" github="GitHub docs"
-                        description="Back-End and Front-End Ecommerce" background="bg-custom-bg-ReactEcommerce"
-                        webSiteLink="https://finalproyect-production.up.railway.app/"
+                        description="Back-End and Front-End Ecommerce" background="bg-custom-bg-Nodejs"
+                        webSiteLink="https://node-js-final-proyect-ecommerce.vercel.app/"
                         gitHubLink="https://github.com/rdavid1986/nodeJs-FinalProyect-ecommerce-"
                     />
                     <Card
                         title="ReactJs, Tailwind, NextUI"
                         type="Web site" github="GitHub docs"
                         description="ReactJs portfolio" background="bg-custom-bg-portfolio"
-                        webSiteLink="https://finalproyect-production.up.railway.app/"
-                        gitHubLink="https://github.com/rdavid1986/nodeJs-FinalProyect-ecommerce-"
+                        webSiteLink="https://protfolio-react-js-tailwind-next-ui.vercel.app/"
+                        gitHubLink="https://github.com/rdavid1986/Protfolio-ReactJS-tailwind-NextUI-"
                     />
                 </div>
                 <ScrollToTopButton />

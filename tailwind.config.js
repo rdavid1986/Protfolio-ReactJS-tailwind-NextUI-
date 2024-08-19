@@ -25,6 +25,7 @@ module.exports = {
                 'custom-bg-MonteGrandeBus': "url('/images/MonteGrandeBus.png')",
                 'custom-bg-SistemaReservas': "url('/images/SistemaReservas.png')",
                 'custom-bg-ReactEcommerce': "url('/images/ReactEcommerce.png')",
+                'custom-bg-Nodejs': "url('/images/Nodejs.png')",
                 'custom-bg-portfolio': "url('/images/reactPortfolio.png')"
             },
             minWidth: {
