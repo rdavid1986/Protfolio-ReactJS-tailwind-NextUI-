@@ -7,7 +7,7 @@ export default function TechStack() {
     return (
         <>
 
-            <section className="flex-col text-center sm:w-[60%]">
+            <section className="flex-col text-center h-screen sm:w-[60%] ">
                 <span className="text-[40px]">
                     <strong className="text-red-500">HTML </strong><strong className="text-blue-500">CSS </strong><strong className="text-yellow-500">javaScript</strong><br></br><strong className="text-blue-300">ReactJs </strong>
                     <strong className="text-green-500">NodeJs</strong>
